@@ -36,3 +36,10 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# Local environments and generated artifacts
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
